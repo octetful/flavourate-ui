@@ -4,8 +4,6 @@ import './App.css';
 import RestaurantCarousel from './components/restaurant/RestaurantCarousel';
 import Searchbar from './components/search/Searchbar';
 
-
-
 function App() {
   var restaurants = [
     {
