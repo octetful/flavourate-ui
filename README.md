@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# flavourate-ui
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Flavourate is a self hosted, open source application that allows adding and rating new restaurants that you, your friends or family, visit and enjoy.
 
-## Available Scripts
+This repository contains the user interface prototype for it.
+
+
+## Tech Stack
+
+- [Create React App](https://github.com/facebook/create-react-app).
+- [ReactJS](https://reactjs.org/).
+- [Material-UI](https://mui.com/).
+- [Material UI Carousel](https://github.com/Learus/react-material-ui-carousel).
+- [google-map-react]().
+
+## Useful Commands
 
 In the project directory, you can run:
 
