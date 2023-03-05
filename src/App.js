@@ -3,6 +3,7 @@ import AddIcon from '@mui/icons-material/Add';
 import './App.css';
 import RestaurantCarousel from './components/restaurant/RestaurantCarousel';
 import Searchbar from './components/search/Searchbar';
+import RestaurantMapper from './components/restaurant/RestaurantMapper';
 
 function App() {
   var restaurants = [
@@ -36,6 +37,8 @@ function App() {
     },
   ];
 
+  const { GOOGLE_MAP_API_KEY } = process.env;
+
   return (
     <div>
       <header className="App">
@@ -53,6 +56,7 @@ function App() {
       <Stack className="App">
         <Searchbar />
         <RestaurantCarousel restaurants={restaurants} />
+        <RestaurantMapper apiKey={GOOGLE_MAP_API_KEY} />
         <Fab color="primary" aria-label="Add Restaurant" sx={{position: 'absolute', bottom: 16, right: 16}}>
           <AddIcon/>
         </Fab>
