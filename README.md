@@ -11,7 +11,7 @@ This repository contains the user interface prototype for it.
 - [ReactJS](https://reactjs.org/).
 - [Material-UI](https://mui.com/).
 - [Material UI Carousel](https://github.com/Learus/react-material-ui-carousel).
-- [google-map-react]().
+- [google-map-react](https://github.com/google-map-react/google-map-react).
 
 ## Useful Commands
 
